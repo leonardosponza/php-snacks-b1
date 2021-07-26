@@ -6,9 +6,9 @@ casa e punti fatti dalla squadra ospite. Stampiamo a schermo tutte le partite co
 
  <?php
 $array = [
-   'team_casa'=> 'Milano'
-   'team_visitatore'=>'Cantù'
-   'punti_casa'=>'55'
+   'team_casa'=> 'Milano',
+   'team_visitatore'=>'Cantù',
+   'punti_casa'=>'55',
    'punti_visitatore'=>'60'
 ]
 
@@ -25,9 +25,9 @@ $array = [
 </head>
 <body>
     <span>partita:<?php echo $array['team_casa']?> </span>
-    <span>partita:<?php echo $array['team_visitatore']?></span>
-    <span>partita:<?php echo $array['punti_casa']?> </span>
-    <span>partita:<?php echo $array['punti_visitatore']?></span>
+    <span><?php echo $array['team_visitatore']?></span>
+    <span>punti:<?php echo $array['punti_casa']?> </span>
+    <span><?php echo $array['punti_visitatore']?></span>
 </body>
 </html> 
 
