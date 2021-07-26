@@ -24,9 +24,9 @@ $array = [
     <title>Document</title>
 </head>
 <body>
-    <span>partita:<?php echo $array['team_casa']?> </span>
+    <span>partita:<?php echo $array['team_casa']?>-</span>
     <span><?php echo $array['team_visitatore']?></span>
-    <span>punti:<?php echo $array['punti_casa']?> </span>
+    <span>punti:<?php echo $array['punti_casa']?>-</span>
     <span><?php echo $array['punti_visitatore']?></span>
 </body>
 </html> 
